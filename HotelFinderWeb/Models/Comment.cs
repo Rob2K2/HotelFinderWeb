@@ -12,7 +12,7 @@ namespace PhotoSharingApplication.Models
         public int CommentID { get; set; }
 
         //PhotoID. This is the ID of the photo that this comment relates to
-        public int PhotoID { get; set; }
+        public int HotelID { get; set; }
 
         //UserName. This is the name of the user who made this comment
         public string UserName { get; set; }
@@ -26,7 +26,6 @@ namespace PhotoSharingApplication.Models
         [DataType(DataType.MultilineText)]
         public string Body { get; set; }
 
-        //Photo. This is the photo that this comment relates to as a navigation property
-        public virtual Photo Photo { get; set; }
+        public virtual Hotel Hotel { get; set; }
     }
 }

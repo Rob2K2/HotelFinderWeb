@@ -17,7 +17,7 @@ namespace PhotoSharingTests
         {
             //This test checks that the PhotoController Index action returns the Index View
             var context = new FakePhotoSharingContext();
-            var controller = new PhotoController(context);
+            var controller = new HotelController(context);
             var result = controller.Index() as ViewResult;
             Assert.AreEqual("Index", result.ViewName);
         }
@@ -28,15 +28,15 @@ namespace PhotoSharingTests
             //This test checks that the PhotoController _PhotoGallery action passes a list of Photos to the view
             var context = new FakePhotoSharingContext();
             context.Photos = new[] {
-                new Photo(),
-                new Photo(),
-                new Photo(),
-                new Photo()
+                new Hotel(),
+                new Hotel(),
+                new Hotel(),
+                new Hotel()
             }.AsQueryable();
 
-            var controller = new PhotoController(context);
+            var controller = new HotelController(context);
             var result = controller._PhotoGallery() as PartialViewResult;
-            Assert.AreEqual(typeof(List<Photo>), result.Model.GetType());
+            Assert.AreEqual(typeof(List<Hotel>), result.Model.GetType());
         }
 
         [TestMethod]
@@ -45,13 +45,13 @@ namespace PhotoSharingTests
             //This test checks that the PhotoController GetImage action returns a FileResult
             var context = new FakePhotoSharingContext();
             context.Photos = new[] {
-                new Photo{ PhotoID = 1, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
-                new Photo{ PhotoID = 2, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
-                new Photo{ PhotoID = 3, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
-                new Photo{ PhotoID = 4, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" }
+                new Hotel{ HotelID = 1, HotelPicture = new byte[1], ImageMimeType = "image/jpeg" },
+                new Hotel{ HotelID = 2, HotelPicture = new byte[1], ImageMimeType = "image/jpeg" },
+                new Hotel{ HotelID = 3, HotelPicture = new byte[1], ImageMimeType = "image/jpeg" },
+                new Hotel{ HotelID = 4, HotelPicture = new byte[1], ImageMimeType = "image/jpeg" }
             }.AsQueryable();
 
-            var controller = new PhotoController(context);
+            var controller = new HotelController(context);
             var result = controller.GetImage(1) as ActionResult;
             Assert.AreEqual(typeof(FileContentResult), result.GetType());
         }
@@ -62,16 +62,16 @@ namespace PhotoSharingTests
             //This test checks that the PhotoController DisplayByTitle action returns the right photo
             var context = new FakePhotoSharingContext();
             context.Photos = new[] {
-                new Photo{ PhotoID = 1, Title="Photo1" },
-                new Photo{ PhotoID = 2, Title="Photo2" },
-                new Photo{ PhotoID = 3, Title="Photo3" },
-                new Photo{ PhotoID = 4, Title="Photo4" }
+                new Hotel{ HotelID = 1, Name="Photo1" },
+                new Hotel{ HotelID = 2, Name="Photo2" },
+                new Hotel{ HotelID = 3, Name="Photo3" },
+                new Hotel{ HotelID = 4, Name="Photo4" }
             }.AsQueryable();
 
-            var controller = new PhotoController(context);
+            var controller = new HotelController(context);
             var result = controller.DisplayByTitle("Photo2") as ViewResult;
-            var resultPhoto = (Photo)result.Model;
-            Assert.AreEqual(2, resultPhoto.PhotoID);
+            var resultPhoto = (Hotel)result.Model;
+            Assert.AreEqual(2, resultPhoto.HotelID);
         }
 
         [TestMethod]
@@ -81,13 +81,13 @@ namespace PhotoSharingTests
             //HttpNotFound when you request a title that doesn't exist
             var context = new FakePhotoSharingContext();
             context.Photos = new[] {
-                new Photo{ PhotoID = 1, Title="Photo1" },
-                new Photo{ PhotoID = 2, Title="Photo2" },
-                new Photo{ PhotoID = 3, Title="Photo3" },
-                new Photo{ PhotoID = 4, Title="Photo4" }
+                new Hotel{ HotelID = 1, Name="Photo1" },
+                new Hotel{ HotelID = 2, Name="Photo2" },
+                new Hotel{ HotelID = 3, Name="Photo3" },
+                new Hotel{ HotelID = 4, Name="Photo4" }
             }.AsQueryable();
 
-            var controller = new PhotoController(context);
+            var controller = new HotelController(context);
             var result = controller.DisplayByTitle("NonExistentTitle");
             Assert.AreEqual(typeof(HttpNotFoundResult), result.GetType());
         }
@@ -99,15 +99,15 @@ namespace PhotoSharingTests
             //parameter, all the photos in the context are returned
             var context = new FakePhotoSharingContext();
             context.Photos = new[] {
-                new Photo(),
-                new Photo(),
-                new Photo(),
-                new Photo()
+                new Hotel(),
+                new Hotel(),
+                new Hotel(),
+                new Hotel()
             }.AsQueryable();
 
-            var controller = new PhotoController(context);
+            var controller = new HotelController(context);
             var result = controller._PhotoGallery() as PartialViewResult;
-            var modelPhotos = (IEnumerable<Photo>)result.Model;
+            var modelPhotos = (IEnumerable<Hotel>)result.Model;
             Assert.AreEqual(4, modelPhotos.Count());
         }
 
@@ -118,15 +118,15 @@ namespace PhotoSharingTests
             //parameter, all the photos in the context are returned
             var context = new FakePhotoSharingContext();
             context.Photos = new[] {
-                new Photo(),
-                new Photo(),
-                new Photo(),
-                new Photo()
+                new Hotel(),
+                new Hotel(),
+                new Hotel(),
+                new Hotel()
             }.AsQueryable();
 
-            var controller = new PhotoController(context);
+            var controller = new HotelController(context);
             var result = controller._PhotoGallery(3) as PartialViewResult;
-            var modelPhotos = (IEnumerable<Photo>)result.Model;
+            var modelPhotos = (IEnumerable<Hotel>)result.Model;
             Assert.AreEqual(3, modelPhotos.Count());
         }
     }

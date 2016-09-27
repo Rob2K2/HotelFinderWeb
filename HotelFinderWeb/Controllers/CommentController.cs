@@ -9,15 +9,15 @@ namespace PhotoSharingApplication.Controllers
 {
     public class CommentController : Controller
     {
-        private IPhotoSharingContext context;
+        private IHotelFinderContext context;
 
         //Constructors
         public CommentController()
         {
-            context = new PhotoSharingContext();
+            context = new HotelFinderContext();
         }
 
-        public CommentController(IPhotoSharingContext Context)
+        public CommentController(IHotelFinderContext Context)
         {
             context = Context;
         }
@@ -29,7 +29,7 @@ namespace PhotoSharingApplication.Controllers
         {
             //The comments for a particular photo have been requested. Get those comments.
             var comments = from c in context.Comments
-                           where c.PhotoID == PhotoId
+                           where c.HotelID == PhotoId
                            select c;
             //Save the PhotoID in the ViewBag because we'll need it in the view
             ViewBag.PhotoId = PhotoId;
@@ -48,7 +48,7 @@ namespace PhotoSharingApplication.Controllers
 
             //Get the updated list of comments
             var comments = from c in context.Comments
-                           where c.PhotoID == PhotoId
+                           where c.HotelID == PhotoId
                            select c;
             //Save the PhotoID in the ViewBag because we'll need it in the view
             ViewBag.PhotoId = PhotoId;
@@ -63,7 +63,7 @@ namespace PhotoSharingApplication.Controllers
         {
             //Create the new comment
             Comment newComment = new Comment();
-            newComment.PhotoID = PhotoId;
+            newComment.HotelID = PhotoId;
 
             ViewBag.PhotoID = PhotoId;
             return PartialView("_CreateAComment");
@@ -77,7 +77,7 @@ namespace PhotoSharingApplication.Controllers
         public ActionResult Delete(int id = 0)
         {
             Comment comment = context.FindCommentById(id);
-            ViewBag.PhotoID = comment.PhotoID;
+            ViewBag.PhotoID = comment.HotelID;
             if (comment == null)
             {
                 return HttpNotFound();
@@ -94,7 +94,7 @@ namespace PhotoSharingApplication.Controllers
             Comment comment = context.FindCommentById(id);
             context.Delete<Comment>(comment);
             context.SaveChanges();
-            return RedirectToAction("Display", "Photo", new { id = comment.PhotoID });
+            return RedirectToAction("Display", "Photo", new { id = comment.HotelID });
         }
 
     }

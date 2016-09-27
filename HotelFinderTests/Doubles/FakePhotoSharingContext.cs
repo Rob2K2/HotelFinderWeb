@@ -8,7 +8,7 @@ using PhotoSharingApplication.Models;
 
 namespace PhotoSharingTests.Doubles
 {
-    class FakePhotoSharingContext : IPhotoSharingContext
+    class FakePhotoSharingContext : IHotelFinderContext
     {
 
 
@@ -16,10 +16,10 @@ namespace PhotoSharingTests.Doubles
         //entity framework context in memory
         SetMap _map = new SetMap();
 
-        public IQueryable<Photo> Photos
+        public IQueryable<Hotel> Photos
         {
-            get { return _map.Get<Photo>().AsQueryable(); }
-            set { _map.Use<Photo>(value); }
+            get { return _map.Get<Hotel>().AsQueryable(); }
+            set { _map.Use<Hotel>(value); }
         }
 
         public IQueryable<Comment> Comments
@@ -42,19 +42,19 @@ namespace PhotoSharingTests.Doubles
             return entity;
         }
 
-        public Photo FindPhotoById(int ID)
+        public Hotel FindPhotoById(int ID)
         {
-            Photo item = (from p in this.Photos
-                    where p.PhotoID == ID
+            Hotel item = (from p in this.Photos
+                    where p.HotelID == ID
                     select p).First();
  
             return item;
         }
 
-        public Photo FindPhotoByTitle(string Title)
+        public Hotel FindPhotoByTitle(string Title)
         {
-            Photo item = (from p in this.Photos
-                          where p.Title == Title
+            Hotel item = (from p in this.Photos
+                          where p.Name == Title
                           select p).FirstOrDefault();
 
             return item;

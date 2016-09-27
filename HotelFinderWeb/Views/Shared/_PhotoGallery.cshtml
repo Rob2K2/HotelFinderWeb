@@ -1,14 +1,14 @@
-﻿@model IEnumerable<PhotoSharingApplication.Models.Photo>
+﻿@model IEnumerable<PhotoSharingApplication.Models.Hotel>
 
 @foreach (var item in Model)
 {
     
 <div class="photo-index-card">
-    <h3>"@item.Title"</h3>
+    <h3>"@item.Name"</h3>
     
-    @if (item.PhotoFile != null)
+    @if (item.HotelPicture != null)
     {
-        <img class="photo-index-card-img" src="@Url.Action("GetImage", "Photo", new { id = item.PhotoID })" />
+        <img class="photo-index-card-img" src="@Url.Action("GetImage", "Hotel", new { id = item.HotelID })" />
     }
     
     <div class="photo-metadata">
@@ -33,8 +33,8 @@
 
     </div>
     
-    @Html.ActionLink("Display", "Display", new { id = item.PhotoID }) |
-    @Html.ActionLink("Delete", "Delete", new { id = item.PhotoID })
+    @Html.ActionLink("Display", "Display", new { id = item.HotelID }) |
+    @Html.ActionLink("Delete", "Delete", new { id = item.HotelID })
 
     </div>
 }

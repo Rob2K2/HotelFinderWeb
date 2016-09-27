@@ -119,18 +119,18 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PhotoController.cs" />
+    <Compile Include="Controllers\HotelController.cs" />
     <Compile Include="Controllers\ValueReporter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Comment.cs" />
-    <Compile Include="Models\IPhotoSharingContext.cs" />
-    <Compile Include="Models\Photo.cs" />
-    <Compile Include="Models\PhotoDynamicNodeProvider.cs" />
-    <Compile Include="Models\PhotoSharingContext.cs" />
-    <Compile Include="Models\PhotoSharingInitializer.cs" />
+    <Compile Include="Models\IHotelFinderContext.cs" />
+    <Compile Include="Models\Hotel.cs" />
+    <Compile Include="Models\HotelDynamicNodeProvider.cs" />
+    <Compile Include="Models\HotelFinderContext.cs" />
+    <Compile Include="Models\HotelFinderInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -173,16 +173,16 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Photo\Display.cshtml" />
+    <Content Include="Views\Hotel\Display.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Photo\Create.cshtml" />
+    <Content Include="Views\Hotel\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_PhotoGallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Photo\Index.cshtml" />
+    <Content Include="Views\Hotel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
@@ -213,14 +213,14 @@
     <None Include="MvcSiteMapSchema.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="Views\Photo\Delete.cshtml" />
+    <Content Include="Views\Hotel\Delete.cshtml" />
     <Content Include="Views\Shared\_MainLayout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_MainLayout.Mobile.cshtml" />
     <Content Include="Views\Comment\Delete.cshtml" />
     <Content Include="Views\Shared\_CommentsForPhoto.cshtml" />
     <Content Include="Views\Shared\_CreateAComment.cshtml" />
-    <Content Include="Views\Photo\SlideShow.cshtml" />
+    <Content Include="Views\Hotel\SlideShow.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\ResetPassword.cshtml" />
