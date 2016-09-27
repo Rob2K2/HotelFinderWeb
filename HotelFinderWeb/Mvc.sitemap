@@ -5,11 +5,11 @@
             enableLocalization="true">
 
   <mvcSiteMapNode title="Home" visibility="*" controller="Home" action="Index">
-    <mvcSiteMapNode title="All Photos" visibility="*" controller="Hotel" action="Index" key="AllPhotos">
-      <mvcSiteMapNode title="Display" visibility="SiteMapPathHelper,!*" controller="Hotel" action="Display" dynamicNodeProvider="HotelFinderWeb.Models.HotelDynamicNodeProvider, HotelFinderWeb" />
+    <mvcSiteMapNode title="All Hotels" visibility="*" controller="Hotel" action="Index" key="AllHotels">
+      <!--<mvcSiteMapNode title="Display" visibility="SiteMapPathHelper,!*" controller="Hotel" action="Display" dynamicNodeProvider="HotelFinderWeb.Models.HotelDynamicNodeProvider, HotelFinderWeb" />-->
     </mvcSiteMapNode>
-    <mvcSiteMapNode title="Slideshow" visibility="*" controller="Hotel" action="SlideShow" />
-    <mvcSiteMapNode title="Add a Photo" visibility="*" controller="Hotel" action="Create" />
+    <!--<mvcSiteMapNode title="Slideshow" visibility="*" controller="Hotel" action="SlideShow" />-->
+    <mvcSiteMapNode title="Add a Hotel" visibility="*" controller="Hotel" action="Create" />
   </mvcSiteMapNode>
 
 </mvcSiteMap>

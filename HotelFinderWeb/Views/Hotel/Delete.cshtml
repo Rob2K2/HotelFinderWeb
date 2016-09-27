@@ -1,21 +1,21 @@
-﻿@model PhotoSharingApplication.Models.Photo
+﻿@model PhotoSharingApplication.Models.Hotel
 
 @{
-    ViewBag.Title = "Delete Photo: " + Model.Title;
+    ViewBag.Title = "Delete Hotel: " + Model.Name;
 }
 
-<h2>Delete Photo: "@Model.Title"</h2>
+<h2>Delete Hotel: "@Model.Name"</h2>
 
-<p>Are you sure you want to delete this photo?</p>
+<p>Are you sure you want to delete this hotel?</p>
 
-@using (Html.BeginForm("Delete", "Photo", FormMethod.Post))
+@using (Html.BeginForm("Delete", "Hotel", FormMethod.Post))
 {
     <div class="photo-display">
-        <img width="200" src="@Url.Action("GetImage", "Photo", new { id = Model.PhotoID })" />
+        <img width="200" src="@Url.Action("GetImage", "Hotel", new { id = Model.HotelID })" />
     </div>
             
     <div class="photo-description">
-        @Html.DisplayFor(model => model.Description)
+        @Html.DisplayFor(model => model.HotelSummary)
     </div>
 
     <div class="photo-metadata">

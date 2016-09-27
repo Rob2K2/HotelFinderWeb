@@ -1,19 +1,19 @@
-﻿@model PhotoSharingApplication.Models.Photo
+﻿@model PhotoSharingApplication.Models.Hotel
 
 @{
-    ViewBag.Title = Model.Title;
+    ViewBag.Title = Model.Name;
 }
 
-<h2>"@Model.Title"</h2>
+<h2>"@Model.Name"</h2>
 
-@if (Model.PhotoFile != null) {
+@if (Model.HotelPicture != null) {
     <div class="photo-display">
-        <img width="800" src="@Url.Action("GetImage", "Photo", new { id = Model.PhotoID })" />
+        <img width="800" src="@Url.Action("GetImage", "Hotel", new { id = Model.HotelID })" />
     </div>
 }
 
 <div class="photo-description">
-    @Html.DisplayFor(model => model.Description)
+    @Html.DisplayFor(model => model.HotelSummary)
 </div>
 
 <div class="photo-metadata">
@@ -38,9 +38,9 @@
         
 </div>
 
-@Html.Action("_CommentsForPhoto", "Comment", new { PhotoID = Model.PhotoID })
+@Html.Action("_CommentsForPhoto", "Comment", new { HotelID = Model.HotelID })
 
 <p>
     @Html.ActionLink("Back to List", "Index") |
-    @Html.ActionLink("Delete This Photo", "Delete", new { id = Model.PhotoID })
+    @Html.ActionLink("Delete This Photo", "Delete", new { id = Model.HotelID })
 </p>

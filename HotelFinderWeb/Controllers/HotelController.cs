@@ -54,12 +54,12 @@ namespace PhotoSharingApplication.Controllers
 
         public ActionResult Display(int id)
         {
-            Hotel photo = context.FindPhotoById(id);
-            if (photo == null)
+            Hotel hotel = context.FindPhotoById(id);
+            if (hotel == null)
             {
                 return HttpNotFound();
             }
-            return View("Display", photo);
+            return View("Display", hotel);
         }
 
         public ActionResult DisplayByTitle(string title)
@@ -82,22 +82,22 @@ namespace PhotoSharingApplication.Controllers
 
         [Authorize]
         [HttpPost]
-        public ActionResult Create(Hotel photo, HttpPostedFileBase image)
+        public ActionResult Create(Hotel hotel, HttpPostedFileBase image)
         {
-            photo.CreatedDate = DateTime.Today;
+            hotel.CreatedDate = DateTime.Today;
             if (!ModelState.IsValid)
             {
-                return View("Create", photo);
+                return View("Create", hotel);
             }
             else
             {
                 if (image != null)
                 {
-                    photo.ImageMimeType = image.ContentType;
-                    photo.HotelPicture = new byte[image.ContentLength];
-                    image.InputStream.Read(photo.HotelPicture, 0, image.ContentLength);
+                    hotel.ImageMimeType = image.ContentType;
+                    hotel.HotelPicture = new byte[image.ContentLength];
+                    image.InputStream.Read(hotel.HotelPicture, 0, image.ContentLength);
                 }
-                context.Add<Hotel>(photo);
+                context.Add<Hotel>(hotel);
                 context.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -106,12 +106,12 @@ namespace PhotoSharingApplication.Controllers
         [Authorize]
         public ActionResult Delete(int id)
         {
-            Hotel photo = context.FindPhotoById(id);
-            if (photo == null)
+            Hotel hotel = context.FindPhotoById(id);
+            if (hotel == null)
             {
                 return HttpNotFound();
             }
-            return View("Delete", photo);
+            return View("Delete", hotel);
         }
 
         [Authorize]
@@ -119,8 +119,8 @@ namespace PhotoSharingApplication.Controllers
         [ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            Hotel photo = context.FindPhotoById(id);
-            context.Delete<Hotel>(photo);
+            Hotel hotel = context.FindPhotoById(id);
+            context.Delete<Hotel>(hotel);
             context.SaveChanges();
             return RedirectToAction("Index");
         }
