@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Welcome to Hotel Finder Web";
+}
+
+<p>Welcome to Hotel Finder Web! Use this site to share your favorite hotels.</p>
+            
+<h2>Latest Hotels:</h2>
+
+@Html.Action("_PhotoGallery", "Hotel", new { number = 3 })
+    
