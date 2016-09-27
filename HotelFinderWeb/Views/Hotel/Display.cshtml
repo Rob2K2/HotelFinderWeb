@@ -4,7 +4,7 @@
     ViewBag.Title = Model.Name;
 }
 
-<h2>"@Model.Name"</h2>
+<h2>@Model.Name</h2>
 
 @if (Model.HotelPicture != null) {
     <div class="photo-display">
@@ -12,11 +12,37 @@
     </div>
 }
 
+<h3>Hotel Description</h3>
 <div class="photo-description">
     @Html.DisplayFor(model => model.HotelSummary)
 </div>
 
-<div class="photo-metadata">
+<h3>Rooms Description</h3>
+<div class="photo-description">
+    @Html.DisplayFor(model => model.RoomSummary)
+</div>
+
+<h3>Address</h3>
+<div class="photo-description">
+    @Html.DisplayFor(model => model.Address)
+</div>
+
+<h3>Phone</h3>
+<div class="photo-description">
+    @Html.DisplayFor(model => model.Phone)
+</div>
+
+<h3>Phone</h3>
+<div class="photo-description">
+    @Html.DisplayFor(model => model.Web)
+</div>
+
+<h3>City</h3>
+<div class="photo-description">
+    @Html.DisplayFor(model => model.City)
+</div>
+
+@*<div >
 
     <div>
         <span class="display-label">
@@ -36,7 +62,7 @@
         </span>
     </div>
         
-</div>
+</div>*@
 
 @Html.Action("_CommentsForPhoto", "Comment", new { HotelID = Model.HotelID })
 

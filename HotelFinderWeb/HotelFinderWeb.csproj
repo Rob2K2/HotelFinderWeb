@@ -139,21 +139,24 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Content\BackgroundGradient.jpg" />
     <Content Include="Content\PhotoSharingStyles.css" />
+    <Content Include="Css\bootstrap.css" />
+    <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\business-casual.css" />
     <Content Include="Error.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Images\blackberries.JPG" />
-    <Content Include="Images\coastalview.jpg" />
-    <Content Include="Images\flower.JPG" />
-    <Content Include="Images\fungi.JPG" />
-    <Content Include="Images\headland.jpg" />
-    <Content Include="Images\orchard.JPG" />
-    <Content Include="Images\path.JPG" />
-    <Content Include="Images\pebbles.jpg" />
-    <Content Include="Images\pinkflower.JPG" />
-    <Content Include="Images\pontoon.JPG" />
-    <Content Include="Images\ripples.jpg" />
-    <Content Include="Images\rockpool.jpg" />
-    <Content Include="Images\track.JPG" />
+    <Content Include="Images\americana.jpg" />
+    <Content Include="Images\aranjuez.jpg" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\cesarsplaza.jpg" />
+    <Content Include="Images\diplomat.jpg" />
+    <Content Include="Images\portales.jpg" />
+    <Content Include="Images\presidente.jpg" />
+    <Content Include="Images\regina.jpg" />
+    <Content Include="Images\tajibos.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.js" />
     <Content Include="Scripts\SlideShow.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -210,6 +213,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mvc.sitemap" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="MvcSiteMapSchema.xsd">
       <SubType>Designer</SubType>
     </None>
