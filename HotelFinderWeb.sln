@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinderWeb", "PhotoSharingApplication\HotelFinderWeb.csproj", "{3953D3A4-D182-423E-8F45-64EC7B7FE248}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinderWeb", "HotelFinderWeb\HotelFinderWeb.csproj", "{3953D3A4-D182-423E-8F45-64EC7B7FE248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinderTests", "PhotoSharingTests\HotelFinderTests.csproj", "{F6A8300A-6D21-46C1-A10E-DE0671689316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinderTests", "HotelFinderTests\HotelFinderTests.csproj", "{F6A8300A-6D21-46C1-A10E-DE0671689316}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B8D17FB4-9176-479C-AC52-DC921F718C35}"
 	ProjectSection(SolutionItems) = preProject
