@@ -1,0 +1,75 @@
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.pdb
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.pdb
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.xml
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.xml
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.xml
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.csprojResolveAssemblyReference.cache
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.dll
+C:\AllFiles\Mod6\LabFiles\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.pdb
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.pdb
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.pdb
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.xml
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.xml
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.xml
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.csprojResolveAssemblyReference.cache
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.dll
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.pdb
+C:\AllFiles\Mod7\Labfiles\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.dll.config
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.dll.config
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.pdb
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\MvcSiteMapProvider.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.pdb
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.xml
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\MvcSiteMapProvider.xml
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.xml
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.xml
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.csprojResolveAssemblyReference.cache
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.dll
+C:\AllFiles\Mod11\Solution\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.pdb
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.dll.config
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingTests.pdb
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\MvcSiteMapProvider.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\PhotoSharingApplication.pdb
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\EntityFramework.xml
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\MvcSiteMapProvider.xml
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.xml
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.csprojResolveAssemblyReference.cache
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.dll
+C:\Users\Rob\Desktop\ASP MVC 4\Labfiles\Mod12\Starter\PhotoSharingApplication\PhotoSharingTests\obj\Debug\PhotoSharingTests.pdb
