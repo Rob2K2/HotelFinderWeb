@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvcSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0"
+            xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0 MvcSiteMapSchema.xsd"
+            enableLocalization="true">
+
+  <mvcSiteMapNode title="Home" visibility="*" controller="Home" action="Index">
+    <mvcSiteMapNode title="All Hotels" visibility="*" controller="Hotel" action="Index" key="AllHotels">
+      <!--<mvcSiteMapNode title="Display" visibility="SiteMapPathHelper,!*" controller="Hotel" action="Display" dynamicNodeProvider="HotelFinderWeb.Models.HotelDynamicNodeProvider, HotelFinderWeb" />-->
+    </mvcSiteMapNode>
+    <!--<mvcSiteMapNode title="Slideshow" visibility="*" controller="Hotel" action="SlideShow" />-->
+    <mvcSiteMapNode title="Add a Hotel" visibility="*" controller="Hotel" action="Create" />
+  </mvcSiteMapNode>
+
+</mvcSiteMap>
